@@ -1,0 +1,326 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: bisque;
+}
+
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    margin-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+
+}
+
+.lifeservice ul li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.service_ico {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat;
+
+}
+
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+
+.service_ico_jipiao {
+    background-position: -80px -16px;
+}
+
+.service_ico_dypiao {
+    background-position: -142px -16px;
+}
+
+.service_ico_youxi {
+    background-position: -205px -16px;
+}
+
+.service_ico_caipiao {
+    background-position: -17px -87px;
+}
+
+.service_ico_jiayouka {
+    background-position: -80px -87px;
+}
+
+.service_ico_jiudian {
+    background-position: -142px -87px;
+}
+
+.service_ico_hcpiao {
+    background-position: -205px -87px;
+}
+
+.service_ico_zhongchou {
+    background-position: -17px -158px;
+}
+
+.service_ico_licai {
+    background-position: -80px -158px;
+}
+
+.service_ico_lipinka {
+    background-position: -142px -158px;
+}
+
+.service_ico_baitiao {
+    background-position: -205px -158px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_bd {
+    float: left;
+
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+/* 猜你喜欢模块 */
+.love_hd {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.love_hd h3 {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+
+.love_hd p {
+    display: block;
+    float: right;
+    font-size: 12px;
+    color: #84838d;
+    padding-right: 20px;
+}
+
+.love_hd p::after {
+    font-family: 'icomoon';
+    content: '\ea2e';
+}
+
+.love_bd {
+    height: 230px;
+}
+
+.love_bd ul li {
+    float: left;
+    width: 200px;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.love_bd ul li img {
+    padding-left: 20px;
+}
+
+.love_bd ul li p {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.love_bd ul li div {
+    font-size: 18px;
+    color: #df3033;
+    text-align: center;
+
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    height: 361px;
+    text-align: center;
+}
+
+.col_210 li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.border_bottom {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.t_logo {
+    height: 66px;
+    margin-top: 21px;
+    margin-bottom: 30px;
+}

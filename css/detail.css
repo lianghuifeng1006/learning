@@ -1,0 +1,279 @@
+.xq {
+    height: 607px;
+    margin-top: 18px;
+}
+
+.xq_lujing p {
+    font-style: 12px;
+    color: #666;
+    padding: 8px 0;
+}
+
+.xq_pic {
+    float: left;
+}
+
+.xq_pic_big {
+    position: relative;
+    height: 398px;
+    width: 398px;
+    border: 1px solid #ededed;
+}
+
+.xq_pic_big img {
+    position: absolute;
+    top: 34px;
+    left: 118px;
+}
+
+
+.xq_pic_small {
+    width: 398px;
+    height: 58px;
+    margin: 24px 0;
+    margin-top: 30px;
+}
+
+.xq_pic_small::before {
+    float: left;
+    font-family: 'icomoon';
+    content: '\e91f';
+    text-align: center;
+    line-height: 58px;
+    font-size: 33px;
+    color: #ddd;
+}
+
+.xq_pic_small_one {
+    float: left;
+    width: 58px;
+    height: 58px;
+    border: 1px solid #c81623;
+    text-align: center;
+}
+
+.xq_pic_small_two::after {
+    float: right;
+    font-family: 'icomoon';
+    content: '\e920';
+    text-align: center;
+    line-height: 58px;
+    font-size: 33px;
+    color: #ddd;
+}
+
+.xq_pic p {
+    display: block;
+}
+
+.xq_pic p a::before {
+    font-family: 'icomoon';
+    content: '\eabf';
+    color: #c81623;
+}
+
+.xq_pic .gz::before {
+    font-family: 'icomoon';
+    content: '\e9da';
+    color: #c81623;
+}
+
+.duibi {
+    float: right;
+}
+
+.xq_pic_small_two {
+    float: right;
+}
+
+.xq_con {
+    float: right;
+    width: 718px;
+    height: 567px;
+}
+
+.xq_con h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.xq_con p {
+    display: inline-block;
+    font-size: 12px;
+    color: #e12228;
+    margin: 7px 0;
+}
+
+.xq_con .xq_con_jg {
+    position: relative;
+    width: 100%;
+    height: 112px;
+    background-color: #fee9eb;
+    margin: 16px 0;
+}
+
+.xq_con .xq_con_jg .jg_one {
+    float: left;
+    width: 70px;
+    height: 100%;
+    line-height: 56px;
+    text-align: center;
+}
+
+.xq_con .xq_con_jg .jg_two {
+    float: left;
+
+}
+
+.xq_con .xq_con_jg .jg_two .jg_two_left {
+    float: left;
+    padding-top: 11px;
+}
+
+.xq_con .xq_con_jg .jg_two .jg_two_left i {
+
+    font-size: 24px;
+    color: #c81623;
+}
+
+.xq_con .xq_con_jg .jg_two>.jg_two_right {
+    position: absolute;
+    top: 13px;
+    right: 11px;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+}
+
+.xq_con .xq_con_jg .jg_three {
+    float: left;
+    margin-top: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+.xq_con .xq_con_ps .ps_one {
+    float: left;
+    width: 70px;
+    height: 100%;
+    line-height: 56px;
+    text-align: center;
+}
+
+.xq_con .xq_con_ps .ps_two {
+    padding-top: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+.xq_con .xq_con_ps .ps_three span::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+
+.xq_con .xq_con_ps .ps_three {
+    color: #999;
+    padding-top: 35px;
+    font-size: 12px;
+    border-bottom: 1px solid #ededed;
+}
+
+/* 
+.xq_con dl {
+    position: relative;
+
+}
+
+.xq_con dl dt,
+.xq_con dl dd {
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.xq_con dl dd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #666;
+    width: 62px;
+    height: 42px;
+}
+
+.xq_con dl dt {
+    float: left;
+    padding: 0 30px;
+    color: #333;
+    background-color: #f7f7f7;
+    margin-right: 5px;
+    border: 1px solid #ededed;
+}
+
+.xq_con .xxk {
+    float: left;
+    width: 100%;
+    height: 50px;
+} */
+.xq_con .dl {
+    width: 718px;
+    height: 290px;
+}
+
+.xq_con .dl .choose {
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.xq_con .dl .choose .dt {
+    float: left;
+    color: #666;
+    width: 62px;
+    height: 42px;
+}
+
+.xq_con .dl .choose .item {
+    float: left;
+    margin-left: 5px;
+}
+
+.xq_con .dl .choose .item .sel {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    padding: 0 30px;
+    margin-right: 7px;
+    border: 1px solid #ededed;
+
+}
+
+.xq_con .dl .choose .item .sel:hover {
+    border: 1px solid #c81623;
+}
+
+.xq_con .dl .choose .number {
+    float: left;
+    width: 50px;
+    height: 45px;
+    border: 1px solid #ededed;
+}
+
+.xq_con .dl .choose .submit {
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #ccc;
+    margin-left: 20px;
+}
